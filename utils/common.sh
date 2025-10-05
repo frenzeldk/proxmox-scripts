@@ -26,7 +26,7 @@ os_distro() {
 }
 
 os_fetch() {
-  wget -t 3 -T 30 -q $@
+  wget -t 3 -T 180 -q $@
 }
 
 os_ip() {
